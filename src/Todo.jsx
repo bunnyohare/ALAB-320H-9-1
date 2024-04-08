@@ -49,7 +49,7 @@ export default function Todo({ todo, dispatch }) {
             {todo.name}
           </span>
           <button className="toggle-button" onClick={() => dispatch({ type: ACTIONS.TOGGLE_TODO, payload: { id: todo.id } })}>
-            Toggle
+            Completed
           </button>
           <button className="delete-button" onClick={() => dispatch({ type: ACTIONS.DELETE_TODO, payload: { id: todo.id } })}>
             Delete
