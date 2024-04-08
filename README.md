@@ -9,4 +9,5 @@
 Follow the link listed as 'Local:' to view the app in a browser.
 
 
-This Todo list is based on Wed Deb Simplified [text](https://www.youtube.com/watch?v=kK_Wqx3RnHk)
+This Todo list is based on Wed Deb Simplified's video to [Learn useReducer In 20 Minutes
+](https://www.youtube.com/watch?v=kK_Wqx3RnHk)
