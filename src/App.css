@@ -12,9 +12,14 @@
 }
 
 .form {
-  margin-top: 5px;
+  width: 100%;
+  margin-top: 10px;
 }
 
+.form-wrapper {
+  display: flex;
+  align-items: center;
+}
 .input-field {
   margin-right: 5px;
 }
@@ -37,4 +42,7 @@
 
 .delete-button {
   margin-left: 5px; /* Add margin between Toggle and Delete buttons */
+}
+.output {
+  padding-right: 10px;
 }
