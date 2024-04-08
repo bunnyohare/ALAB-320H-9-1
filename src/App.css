@@ -29,6 +29,7 @@
 }
 
 .todo {
+  margin-top: 10px;;
   margin-bottom: 5px; /* Add margin between each todo */
   margin-right: 5px; /* Add margin on the right side of each todo */
 }

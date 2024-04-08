@@ -11,7 +11,7 @@ export const ACTIONS = {
 function reducer(todos, action){
   switch (action.type) {
     case ACTIONS.ADD_TODO:
-      return [...todos, newTodo(action.payload.name)];
+      return [newTodo(action.payload.name), ...todos]; // Prepend the new todo
     case ACTIONS.TOGGLE_TODO:
       return todos.map(todo => {
         if (todo.id === action.payload.id){
@@ -32,6 +32,7 @@ function reducer(todos, action){
       return todos;
   }
 }
+
 
 
 function newTodo(name) {
