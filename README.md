@@ -1,1 +1,1 @@
-Simple Todo list
+Simple Todo list based on Wed Deb Simplified.
