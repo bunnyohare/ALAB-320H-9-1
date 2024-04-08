@@ -1,4 +1,4 @@
-## ALAB 320H.9.1
+## R-ALAB 320H.9.1 - Building a Todo List
 
 This Todo list is based on Wed Deb Simplified's video to [Learn useReducer In 20 Minutes
 ](https://www.youtube.com/watch?v=kK_Wqx3RnHk).
