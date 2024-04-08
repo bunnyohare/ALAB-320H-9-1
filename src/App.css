@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.form {
+  margin-top: 5px;
+}
+
+.input-field {
+  margin-right: 5px;
+}
+
+.add-button {
+  margin-left: 5px;
+}
+
+.todo {
+  margin-bottom: 5px; /* Add margin between each todo */
+  margin-right: 5px; /* Add margin on the right side of each todo */
+}
+.button-container {
+  margin-top: 5px; /* Add margin between input field and buttons */
+}
+
+.toggle-button {
+  margin-right: 5px; /* Add margin between Toggle and Delete buttons */
+}
+
+.delete-button {
+  margin-left: 5px; /* Add margin between Toggle and Delete buttons */
+}
